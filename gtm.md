@@ -84,7 +84,7 @@ In GTM add the following tag. Make sure the tag fires on the proper events (e.g.
         });
         
         trackingScript.addEventListener("error", function () {
-            console.log("Failed to load Hubzity tracking SDK");
+            console.log("Failed to load Mkt Genius tracking SDK");
         });
         
         head.appendChild(trackingScript);
